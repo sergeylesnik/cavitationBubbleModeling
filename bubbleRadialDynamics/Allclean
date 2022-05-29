@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f *.pkl
+rm -rf charactMapsForFOAM*
+rm -rf __pycache__

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 mainCharactMap_R0PAc.py Louisnard2012
+python3 mainCharactMap_R0PAc.py Nowak2013
+python3 mainSaveFoamCharactMaps.py data_Louisnard2012.pkl \
+    -o charactMapsForFOAM_Louisnard2012
+python3 mainSaveFoamCharactMaps.py data_Nowak2013.pkl \
+    -o charactMapsForFOAM_Nowak2013
